@@ -1,0 +1,17 @@
+{
+  "InstitutionAddress": "16 Lincui Road, Chaoyang District, Beijing, China",
+  "InstitutionName": "Institute of Psychology",
+  "InstitutionalDepartmentName": "CAS Key Laboratory of Mental Health",
+  "PowerLineFrequency": 50,
+  "ManufacturersModelName": "Brain Products ERP,64 Ag-AgCl",
+  "EEGReference": "nose",
+  "ECGChannelCount": 0,
+  "TaskName": "95ByBP",
+  "EEGChannelCount": 63,
+  "RecordingType": "continuous",
+  "RecordingDuration": 864.66,
+  "SamplingFrequency": 1000,
+  "EOGChannelCount": 0,
+  "EMGChannelCount": 0,
+  "SoftwareFilters": "n/a"
+}
