@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on005293",
-  "source": "openneuro",
-  "source_id": "ds005293",
+  "pipeline_stage": "validated",
   "title": "95 By BP",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Zhao Xiangyue": {},
     "Zhou Jingyao": {},
@@ -13,21 +13,66 @@
     "Bi Yanzhi": {},
     "Hu Li": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005293.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005293",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005293",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005293",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.1.1",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".fdt",
+    ".json",
+    ".m",
+    ".md",
+    ".set",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "This dataset comprises neurophysiological recordings from 95 participants undergoing calibrated laser pain stimulation at individually-determined intensity levels. Participants received four graded pain stimuli (corresponding to numerical rating scale values of 2, 4, 6, and 8) applied to bilateral hand dorsum locations, with pain intensity ratings collected for each trial. The study employs a within-subject repeated measures design to investigate pain perception across stimulus intensities and anatomical locations.",
+  "methods_description": "Laser stimulation intensity was individualized based on each participant's pain threshold, determined through ascending stimulus series in 0.25J increments. Four standardized stimulation intensities were used (E1: 2.0 ± 0.2 J; E2: 2.7 ± 0.3 J; E3: 3.4 ± 0.3 J; E4: 4.1 ± 0.4 J), corresponding to numerical rating scale values of 2, 4, 6, and 8. Stimuli were applied to left and right hand dorsum in a within-subject design with 10 trials per condition (80 total trials). Pain intensity was rated using a numerical rating scale (0-10).",
+  "keywords": [
+    {
+      "term": "pain perception"
+    },
+    {
+      "term": "laser stimulation"
+    },
+    {
+      "term": "Nociception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D059225"
+    },
+    {
+      "term": "psychophysics"
+    },
+    {
+      "term": "within-subject design"
+    }
+  ],
+  "source_hash": "16337785186a57c5cd3ebc01e46574e35fadd49f8b1161862753c79de07c3d84"
 }
