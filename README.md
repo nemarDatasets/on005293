@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on005293-blue)](https://doi.org/10.82901/nemar.on005293)
+
 1.Study introduction:
 In this experiment, the intensity of laser stimulation varied individually based on participants’pain thresholds. Prior to the formal commencement of the experiment, participants underwent a series of stimuli of increasing intensity, incrementally rising from low to high in 0.25J steps until reaching the maximum tolerable intensity for each individual. Participants were instructed to verbally report the perceived pain intensity of each laser stimulation using a numerical rating scale (NRS) ranging from 0 (no sensation) to 10 (the maximum tolerable level of pain), with 4 indicating the pain perception threshold akin to a pricking sensation. In this study, each participant received four levels of stimulation intensity, corresponding to ratings of 2, 4, 6, and 8 on the NRS (E1: 2.0 ± 0.2 J; E2: 2.7 ± 0.3 J; E3: 3.4 ± 0.3 J; E4: 4.1 ± 0.4 J).
 2.Participant task information(description of the experiment): 
