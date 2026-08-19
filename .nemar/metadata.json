@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "95 By BP",
-  "description": "This dataset comprises neuroimaging recordings from 95 participants who received individualized laser pain stimulation at varying intensities while providing subjective pain ratings. The study employed a within-subject design with four stimulus intensity levels (corresponding to numerical rating scale values of 2, 4, 6, and 8) applied to two body locations (left and right hand dorsum), yielding 80 total trials per participant. Stimulus intensities were calibrated individually based on pain thresholds: E1: 2.0 ± 0.2 J; E2: 2.7 ± 0.3 J; E3: 3.4 ± 0.3 J; E4: 4.1 ± 0.4 J. The dataset captures neural responses to calibrated nociceptive stimulation and associated pain perception ratings, providing a resource for investigating the neural correlates of pain processing across stimulus intensities.",
-  "methods_description": "Participants underwent individualized pain threshold determination using incrementally increasing laser stimulation (0.25J steps) to establish maximum tolerable intensity. During the experiment, four standardized stimulus intensities were delivered to the left and right hand dorsum in a randomized within-subject design (10 trials per condition, 80 trials total). Participants rated perceived pain intensity on a numerical rating scale (0-10) following each stimulus. The experimental environment was controlled for temperature and ambient noise, and all participants and experimenters wore protective goggles.",
+  "description": "This dataset contains EEG recordings from participants undergoing laser-evoked pain stimulation at four individually calibrated intensity levels, applied to the left and right hand dorsum. Participants rated perceived pain intensity using a numerical rating scale (0-10) following each stimulus, across 80 trials in a two-factor repeated-measures within-subject design. The dataset supports research into the neural correlates of pain perception and intensity coding.",
+  "methods_description": "Laser stimulation intensity was individually calibrated to each participant's pain threshold using 0.25J increments, with four intensity levels corresponding to NRS ratings of 2, 4, 6, and 8. Stimuli were delivered to the left and right hand dorsum (2 locations x 4 intensities = 8 conditions, 10 trials each, 80 trials total). Participants verbally rated pain intensity after each stimulation using a numerical rating scale from 0 (no sensation) to 10 (maximum tolerable pain).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -17,34 +17,26 @@
   },
   "keywords": [
     {
-      "term": "pain perception"
-    },
-    {
-      "term": "laser stimulation"
-    },
-    {
-      "term": "nociception"
-    },
-    {
-      "term": "neuroimaging"
-    },
-    {
-      "term": "within-subject design"
-    },
-    {
-      "term": "pain threshold"
-    },
-    {
       "term": "EEG"
     },
     {
-      "term": "hand dorsum"
+      "term": "Pain Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D058748"
     },
     {
-      "term": "numerical rating scale"
+      "term": "Laser stimulation"
     },
     {
-      "term": "nociceptive stimulation"
+      "term": "Pain threshold"
+    },
+    {
+      "term": "Numerical rating scale"
+    },
+    {
+      "term": "Nociception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D059225"
     }
   ],
   "related_identifiers": [
