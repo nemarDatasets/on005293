@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "95 By BP",
-  "description": "This dataset contains EEG recordings from participants undergoing laser-evoked pain stimulation at four individually calibrated intensity levels, applied to the left and right hand dorsum. Participants rated perceived pain intensity using a numerical rating scale (0-10) following each stimulus, across 80 trials in a two-factor repeated-measures within-subject design. The dataset supports research into the neural correlates of pain perception and intensity coding.",
-  "methods_description": "Laser stimulation intensity was individually calibrated to each participant's pain threshold using 0.25J increments, with four intensity levels corresponding to NRS ratings of 2, 4, 6, and 8. Stimuli were delivered to the left and right hand dorsum (2 locations x 4 intensities = 8 conditions, 10 trials each, 80 trials total). Participants verbally rated pain intensity after each stimulation using a numerical rating scale from 0 (no sensation) to 10 (maximum tolerable pain).",
+  "description": "EEG recordings from healthy participants receiving laser-evoked painful stimulation at four individually calibrated intensities (NRS ratings of 2, 4, 6 and 8) applied to the left and right hand dorsum. Each participant completed 80 trials (8 conditions with 10 trials each) and rated the perceived pain intensity on a numerical rating scale after each stimulus. The dataset supports investigation of the neural encoding of pain intensity.",
+  "methods_description": "Laser stimulation intensity was calibrated per participant from pain thresholds by increasing energy in 0.25 J steps up to the maximum tolerable level. A 4 (intensity: about 2.0, 2.7, 3.4, 4.1 J) x 2 (location: left or right hand dorsum) within-subject design was used, with 10 trials per condition. Participants rated pain on a 0-10 NRS after each stimulus while seated in a quiet room wearing protective goggles.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -20,23 +20,23 @@
       "term": "EEG"
     },
     {
-      "term": "Pain Perception",
+      "term": "laser-evoked potentials"
+    },
+    {
+      "term": "pain perception"
+    },
+    {
+      "term": "pain intensity"
+    },
+    {
+      "term": "Pain",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D058748"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D010146"
     },
     {
-      "term": "Laser stimulation"
-    },
-    {
-      "term": "Pain threshold"
-    },
-    {
-      "term": "Numerical rating scale"
-    },
-    {
-      "term": "Nociception",
+      "term": "Electroencephalography",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D059225"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     }
   ],
   "related_identifiers": [
@@ -66,7 +66,7 @@
     "eeg"
   ],
   "sizes": [
-    "322.4 GB (2282 files)"
+    "300 GB (2282 files)"
   ],
   "formats": [
     ".eeg",
